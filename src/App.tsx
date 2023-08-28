@@ -39,6 +39,7 @@ function App() {
   return (
     <div className="container">
       <div className="item1 item">
+        <>Demo app</>
         <div>
           <button onClick={onClickStartButton}>
             {!isStart ? "start" : "stop"}
