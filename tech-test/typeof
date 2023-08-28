@@ -1,0 +1,13 @@
+const string = "string";
+const number = 12;
+const arr = [12,654];
+const func = () => {
+  return 1;
+};
+
+const typeOf = (data) => Object.prototype.toString.call(data).slice(8,-1);
+
+console.log(typeOf(string));
+console.log(typeOf(number));
+console.log(typeOf(arr));
+console.log(typeOf(func));
